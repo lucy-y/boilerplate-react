@@ -1,0 +1,26 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "test",
+        "description": "test swagger page",
+        "license": {
+            "name": "MIT",
+            "url": "http://localhost:8081"
+        }
+    },
+    "schemes": [
+        "http"
+    ],
+    "host": "localhost:8081",
+    "basePath": "/",
+    "servers": [{
+        "url": "http://localhost:8081"
+    }],
+    "paths": {
+        "/get": {
+            "summary": "test"
+        }
+    },
+    "apis": ["./routes/*.js", "./swagger/*"]
+}
